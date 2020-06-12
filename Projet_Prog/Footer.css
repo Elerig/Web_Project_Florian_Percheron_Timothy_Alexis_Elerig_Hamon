@@ -1,0 +1,59 @@
+/*Footer*/
+
+body, html 
+{
+	margin: 0;
+	display: table;
+	height: 100%; 
+	width: 100%;
+}
+
+.container-fluid
+{
+	padding: 0;
+}
+
+.separator
+{
+	height: 3px;
+	width: 5px;
+	border: none;
+	box-shadow: none;
+	background-color: #3498DB;
+}
+
+.footer
+{
+	display: table-row;
+	height: 250px;
+	background-color: #2C3E50;
+	padding-top: 2%;
+}
+
+.footer h5
+{
+	color: #FFFFFF;
+	text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.footer a
+{
+	color: #FFFFFF;
+	margin-left: 48.5%;
+}
+
+.footer a:hover
+{
+	color: #3498DB;
+	text-decoration: none;
+}
+
+.footer p
+{
+	padding-top: 3%;
+	color: #FFFFFF;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
